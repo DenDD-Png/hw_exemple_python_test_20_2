@@ -1,2 +1,4 @@
 selene == 2.0.0rc9
 pytest
+Playwright
+selenium
