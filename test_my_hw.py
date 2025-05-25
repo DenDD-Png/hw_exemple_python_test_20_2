@@ -3,7 +3,7 @@ import pytest
 
 def test_first(browser_size):
     browser.open('https://google.com')
-    browser.element('[name="q"]').should(be.blank).type('yashaka/selene').press_enter().press_enter()
+    browser.element('[name="q"]').should(be.blank).type('yashaka/selene').press_enter()
     browser.element('b').should(have.text('Об этой странице'))
 
 def test_second(browser_size):
